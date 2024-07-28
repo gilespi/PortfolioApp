@@ -27,7 +27,7 @@
           >
             {{ $t('home.contact') }}
           </RouterLink>
-          <a href="src/assets/images/cv.pdf" target="_blank"
+          <a href="https://drive.google.com/file/d/10EcTK8YFhcYnd6_st5nyjqB-EnDFug1p/view?usp=sharing" target="_blank"
              class="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide transition duration-200 rounded shadow-md 0 focus:shadow-outline focus:outline-none">
             {{ $t('home.getCV') }}
           </a>

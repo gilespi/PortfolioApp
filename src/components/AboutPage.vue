@@ -18,7 +18,7 @@
         </div>
       </div>
       <transition name="slide" mode="out-in">
-        <div v-if="selectedItem" class="card details w-full md:w-2/3 p-4 shadow-lg rounded-lg bg-white text-center">
+        <div v-if="selectedItem" class="card details w-full md:w-2/3 p-4 shadow-lg rounded-lg border text-center">
           <h2 class="text-2xl font-bold"><small class="font-extralight">{{ $t('about.year') }}</small>
             {{ selectedItem.year }}</h2>
           <h2 class="font-bold text-xl pb-3">{{ selectedItem.headline }}</h2>
