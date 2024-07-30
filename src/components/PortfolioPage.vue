@@ -92,7 +92,7 @@ export default {
           category: 'webApp',
           image: portfolio4,
           icons: [vueIcon, jsIcon, apiIcon, html5Icon, tailwindIcon],
-          url: 'https://gilespi.github.io/RealEstateApp/#/'
+          url: 'https://gilespi.github.io/RealEstateApp/'
         },
         {
           id: 2,

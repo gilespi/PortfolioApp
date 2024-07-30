@@ -2,12 +2,12 @@
   <footer class="w-full py-14">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="max-w-3xl mx-auto">
-        <a href="#" class="flex justify-center ">
+        <RouterLink to="/" class="flex justify-center ">
           <img src="/images/logo.svg" class="flex justify-center w-12" alt="#"/>
-        </a>
+        </RouterLink>
         <ul class="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
           <li>
-            <RouterLink :to="Trans.i18nRoute({ name: 'home' })"
+            <RouterLink to="Trans.i18nRoute({ name: 'home' })"
                         class="block py-2 px-3  rounded md:bg-transparent  md:p-0 dark:text-blue-300 md:dark:text-blue-500"
                         aria-current="page">{{ $t('nav.home') }}
             </RouterLink>
