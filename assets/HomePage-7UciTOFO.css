@@ -1,0 +1,1 @@
+.reveal{animation:reveal .8s ease forwards}@keyframes reveal{0%{opacity:0;transform:translateY(40px)}to{opacity:1;transform:translateY(0)}}@keyframes float{0%,to{transform:translateY(0)}50%{transform:translateY(-20px)}}.hero-image{animation:float 6s ease-in-out infinite}:root{--svg-color: white}.dark{--svg-color: #121212}.svg-color{color:var(--svg-color)}
